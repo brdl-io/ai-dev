@@ -4,10 +4,13 @@ Containerized copilot and claude code cli
 ## Install
 
 ```bash
-source <(curl -fsSL https://raw.githubusercontent.com/brdl-io/ai-dev/main/install.sh)
+curl -fsSL https://raw.githubusercontent.com/brdl-io/ai-dev/main/install.sh | bash
 ```
 
-This installs `dev` to `~/.local/bin` and ensures it's on your PATH. After installation, run:
+This installs `dev` to `~/.local/bin` and ensures it's on your PATH.
+Open a new terminal (or `source` your shell RC file) so that `dev` is available on your PATH.
+
+After installation, run:
 
 ```bash
 dev
